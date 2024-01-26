@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="font-family" href="/assert/fonts">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+     @font-face {
+      font-family: 'Inter';
+      src: url('assets/fonts/Inter-VariableFont.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Inter-Bold';
+      src: url('assets/fonts/static/Inter-Bold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Inter-Regular';
+      src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Inter-SemiBold';
+      src: url('assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: #141414;
+      text-align: center;
+      font-family: 'Inter';
+    }
+    h4{
+      color: #fff;
+      font-family: 'Inter-Bold';
+    }
+    #city{
+      color: #C4F82A;
+      font-size: 12px;
+      font-family: 'Inter-SemiBold';
+    }
+    p{
+      color: #fff;
+      font-size: 12px;
+      font-family: 'Inter-Regular';
+    }
+    img{
+      margin: 15px;
+      height: 80px;
+      width: 80px;
+    }
+    a{
+      font-size: 14px;
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Inter-SemiBold';
+    }
+    .container {
+      padding: 20px;
+      background-color: #1F1F1F;
+      align-items: center;
+      width: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%)
+    }
+
+    .btn{
+      background-color: #333333;
+    }
+
+    .btn:hover{
+      background-color: #C4F82A;
+      color: #141414;
+    }
+    a:hover{
+      color: #141414;
+    }
+    .footer {
+      color: #fff;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card container shadow rounded-4 shadow-lg" style="width: 18rem;">
+    <img src="assets/images/PHOTO.JPG" alt="Ajay's profile picture">
+      <h4>Ajay Balu</h4>
+      <p id="city">TamilNadu, India.</p>
+      <p>"Full stack developer"</p>
+    <div class="d-flex flex-column gap-3 align-self-xl-stretch">
+      <div class="btn btn-dark rounded-3"><a href="https://github.com/ajay-balu">GitHub </a></div>
+      <div class="btn btn-dark rounded-3"><a href="https://www.frontendmentor.io/profile/Ajay-Balu">Frontend mentor</a></div>
+      <div class="btn btn-dark rounded-3"><a href="https://www.linkedin.com/in/ajay-boobalakrishnan/">LinkedIn</a></div>
+      <div class="btn btn-dark rounded-3"><a href="">Twitter</a></div>
+      <div class="btn btn-dark rounded-3"><a href="">Instagram</a></div>
+     </div>
+  </div>
+  <div class="attribution footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="mailto:ajaybalu22@gmail.com">Ajay-Balu</a>.
+  </div>
+</body>
+</html>
